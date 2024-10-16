@@ -10,7 +10,7 @@ function DataList() {
 
   // useEffect to fetch data from API when component mounts
   useEffect(() => {
-    // Fetch data from an API (replace with your own API URL if needed)
+    // Fetch data from an API 
     fetch('http://localhost:5000/api/books')
       .then((response) => {
         if (!response.ok) {
