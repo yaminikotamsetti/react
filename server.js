@@ -4,10 +4,10 @@ const cors = require('cors');
 const app = express();
 const port = 5000;
 
-// Allow cross-origin requests (so your frontend can communicate with this API)
+
 app.use(cors());
 
-// Dummy data (replace this with database queries if needed)
+
 const books = [
   { 
     id: 1, 
